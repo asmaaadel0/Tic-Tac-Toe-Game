@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto:ital,wght@0,400;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Play Tic, Tac, Toe</h1>
+      <p id="first-p">
+        Built with HTML, VSS JavaScript -of course- lots of love!
+      </p>
+    </header>
+    <main>
+      <section>
+        <ol>
+          <li>
+            <h2 id="player">Player 1</h2>
+            <h3 id="player-name">PLAYER NAME</h3>
+            <p id="sympole">X</p>
+            <button id="edit">Edit</button>
+          </li>
+          <li>
+            <h2 id="player">Player 2</h2>
+            <h3 id="player-name">PLAYER NAME</h3>
+            <p id="sympole">O</p>
+            <button id="edit">Edit</button>
+          </li>
+        </ol>
+        <button type="submit" id="start-game">Start New Game</button>
+        <aside id="all-overlay">
+          <div id="overlay-choose-name">
+            <h2>Choose your name</h2>
+            <form action="">
+            <label id="name">Player name</label>
+            <input type="text" name="" id="input-name" required />
+            <div id="buttons">
+              <button type="button" id="cancel">Cancel</button>
+              <button id="confirm">Confirm</button>
+            </form>
+            </div>
+          </div>
+        </aside>
+      </section>
+      <article id="game-over">
+        <h2>You won, <span id="player-name"> asmaa!</span></h2>
+        <p>Click "Start new Game" above, to start a new game!</p>
+      </article>
+      <section id="the-play">
+        <p id="player-turn">
+          its your turn <span id="player-name"> asmaa!</span>
+        </p>
+        <ol id="play-box">
+          <li>X</li>
+          <li>X</li>
+          <li>X</li>
+
+          <li>X</li>
+          <li>X</li>
+          <li>X</li>
+
+          <li>X</li>
+          <li>X</li>
+          <li>X</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+html {
+  font-family: "Quiksand", sans-serif;
+  background-color: rgb(250, 237, 245);
+  text-align: center;
+  margin: 0px;
+}
+header {
+  text-align: center;
+  background-color: rgb(235, 117, 199);
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
+/* header{
+  padding: 2rem 5%;
+  background-color: rgb(235, 117, 199);
+  text-align: center;
+} */
+h1 {
+  text-shadow: 1px 1px 2px black;
+  font-family: "Oleo script", sans-serif;
+  font-weight: bold;
+}
+ol {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  list-style: none;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+li {
+  box-shadow: 1px 1px 4px black;
+  border-radius: 8px;
+  margin: 20px;
+  width: 20%;
+  height: 135px;
+  overflow: visible;
+  /* background: linear-gradient(70deg,rgb(217, 214, 214),rgb(182, 182, 182)); */
+  background-color: rgb(217, 214, 214);
+}
+#player {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding: 0px;
+  color: rgb(47, 1, 34);
+}
+#player-name {
+  margin: 4px;
+  color: rgb(175, 13, 134);
+  font-weight: bold;
+  font-size: 20px;
+}
+#sympole {
+  font-weight: 900;
+  font-size: 25px;
+  margin: 3px;
+  color: rgb(47, 1, 34);
+}
+#edit {
+  text-decoration: none;
+  background-color: rgb(217, 214, 214);
+  border: 0px;
+  color: rgb(235, 117, 199);
+  width: 25%;
+  height: 20px;
+}
+#edit:hover {
+  /* text-decoration: underline; */
+  background-color: rgb(253, 233, 247);
+}
+#start-game {
+  color: white;
+  background-color: rgb(235, 117, 199);
+  border-color: rgb(235, 117, 199);
+  width: 13%;
+  height: 30px;
+  border-radius: 5px;
+}
+#start-game:hover {
+  background-color: rgb(243, 138, 212);
+  border-color: rgb(243, 138, 212);
+}
+#all-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+}
+#overlay-choose-name {
+  position: fixed;
+  width: 50%;
+  height: 30%;
+  top: 30%;
+  left: 25%;
+  position: absolute;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+h2 {
+  color: rgb(47, 1, 34);
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#name {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+#input-name {
+  display: block;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-color: aliceblue;
+}
+#input-name:focus{
+  border-color: rgb(235, 117, 199);
+}
+#cancel {
+  width: 13%;
+  height: 28px;
+  margin: 10px;
+  background-color: white;
+  border-color: white;
+  color: rgb(235, 117, 199);
+  border-radius: 3px;
+}
+#cancel:hover {
+  background-color: rgb(253, 233, 247);
+  border-color: rgb(235, 117, 199);
+}
+#confirm {
+  width: 13%;
+  height: 28px;
+  margin: 10px;
+  background-color: rgb(235, 117, 199);
+  border-color: rgb(235, 117, 199);
+  color: white;
+  border-radius: 3px;
+}
+#confirm:hover {
+  background-color: rgb(243, 138, 212);
+  border-color: rgb(243, 138, 212);
+}
+#the-play {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+}
+#play-box {
+  /* margin: 0 auto; */
+  /* width: 0%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4px 0px;
+  margin: 0px;
+  padding: 0px;
+}
+#play-box li {
+  background-color: azure;
+  box-shadow: 1px 1px 4px black;
+  border-radius: 8px;
+  overflow: visible;
+  gap: 0px 0px;
+  margin: 0px;
+}
+#play-box li:nth-of-type(3) {
+  grid-column: 3;
+}
+#play-box li:hover {
+  background-color: rgb(235, 117, 199);
+}
+#game-over{
+  width: 90%;
+  max-width: 40rem;
+  margin: 50px auto;
+  padding: 1rem 2rem;
+  background-color: rgb(235, 117, 199);
+  color: white;
+  box-shadow: 1px 1px 4px black;
+  border-radius: 4px;
+  display: none;
+}
+#game-over h2{
+  color: white;
+  font-size:30px;
+}
+#game-over #player-name{
+  color: white;
+  font-size:30px;
+}
+@media(min-width: 48rem){
+  #overlay-choose-name{
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
