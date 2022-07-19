@@ -27,7 +27,7 @@ h1 {
   font-family: "Oleo script", sans-serif;
   font-weight: bold;
 }
-ol {
+#first-play{
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -37,7 +37,7 @@ ol {
   padding-bottom: 10px;
 }
 
-li {
+#first-play li {
   box-shadow: 1px 1px 4px black;
   border-radius: 8px;
   margin: 20px;
@@ -45,7 +45,7 @@ li {
   height: 135px;
   overflow: visible;
   /* background: linear-gradient(70deg,rgb(217, 214, 214),rgb(182, 182, 182)); */
-  background-color: rgb(217, 214, 214);
+  background-color: rgb(247, 223, 244);
 }
 #player {
   color: black;
@@ -69,7 +69,7 @@ li {
 }
 #edit {
   text-decoration: none;
-  background-color: rgb(217, 214, 214);
+  background-color: rgb(247, 223, 244);
   border: 0px;
   color: rgb(235, 117, 199);
   width: 25%;
@@ -169,27 +169,36 @@ h2 {
   text-align: center;
   margin: auto;
   width: 30%;
+  /* display: none; */
 }
 #play-box {
-  /* margin: 0 auto; */
-  /* width: 0%; */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 4px 0px;
-  margin: 0px;
+  list-style: none;
+  margin: 1rem 0;
   padding: 0px;
+  display: grid;
+  grid-template-columns:repeat(3, 6rem);
+  grid-template-rows:repeat(3, 6rem);
+  justify-content: center;
+  gap: 0.5rem;
 }
 #play-box li {
-  background-color: azure;
-  box-shadow: 1px 1px 4px black;
-  border-radius: 8px;
-  overflow: visible;
-  gap: 0px 0px;
-  margin: 0px;
+  background-color: rgb(249, 210, 243);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* box-shadow: 1px 1px 4px black; */
 }
-#play-box li:nth-of-type(3) {
+#play-box li.disabled{
+  cursor: default;
+  background-color: rgb(235, 117, 199);
+}
+/* #play-box li:nth-of-type(3) {
   grid-column: 3;
-}
+} */
 #play-box li:hover {
   background-color: rgb(235, 117, 199);
 }
