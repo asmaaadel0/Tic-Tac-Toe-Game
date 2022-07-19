@@ -11,12 +11,19 @@ function onName2() {
 }
 function offName() {
     allOverLay.style.display = "none";
+    error.textContent = "";
   }
-  function confirmName() {
-    console.log(0);
-    if (document.getElementById("input-name").value == "") return;
+  function confirmName(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const userInput = formData.get('input-name').trim();
+    if(!userInput){
+        error.textContent = "please enter your name!"
+        error.style.color = "red";
+        error.style.margin = "0px";
+        return;
+    }
     allOverLay.style.display = "none";
-    const userInput = document.getElementById("input-name").value;
     if (isplayer1) {
       console.log(playerNames[0]);
       playerNames[0].textContent = userInput;

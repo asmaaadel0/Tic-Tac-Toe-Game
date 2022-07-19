@@ -182,7 +182,7 @@ h2 {
   gap: 0.5rem;
 }
 #play-box li {
-  background-color: rgb(249, 210, 243);
+  background-color: rgb(249, 210, 210);
   border-radius: 2px;
   cursor: pointer;
   display: flex;
