@@ -1,4 +1,6 @@
 function resetGame() {
+  gameIsOver = false;
+  console.log(playBox);
   activePlayer = 0;
   currentRound = 1;
   gameOverElement.firstElementChild.innerHTML =
@@ -8,8 +10,8 @@ function resetGame() {
   for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 3; j++) {
       gameData[i][j] = 0;
-      gameFieldElements[gameIndex].textContent = '';
-      gameFieldElements[gameIndex].remove('disabled');
+      playBox.children[gameIndex].textContent = "";
+      playBox.children[gameIndex].classList.remove("disabled");
       gameIndex++;
     }
   }
@@ -34,6 +36,7 @@ function switchPlayer() {
   activePlayerName.textContent = players[activePlayer].name;
 }
 function selectGameField(event) {
+  if (event.target.tagName != "LI" || gameIsOver) return;
   const selectedField = event.target;
 
   const selectedColumn = selectedField.dataset.col - 1;
@@ -88,6 +91,7 @@ function checkForGameOver() {
   return 0;
 }
 function endGame(winnerId) {
+  gameIsOver = true;
   gameOverElement.style.display = "block";
   if (winnerId > 0) {
     const winnerName = players[winnerId - 1].name;
