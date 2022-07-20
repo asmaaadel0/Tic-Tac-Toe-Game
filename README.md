@@ -5,4 +5,8 @@
 
 > ### screen Shot from the game
  - ![Capture](https://user-images.githubusercontent.com/88618793/179994894-7a6549ae-b62a-4f52-bc08-620252e83103.PNG)
+ 
+> ### When one of the players wins!
+![Capture2](https://user-images.githubusercontent.com/88618793/179995765-0eb29724-c475-4025-ae24-2902d52f7791.PNG)
+
 
