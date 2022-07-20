@@ -170,7 +170,7 @@ h2 {
   text-align: center;
   margin: auto;
   width: 30%;
-  /* display: none; */
+  display: none;
 }
 #play-box {
   list-style: none;

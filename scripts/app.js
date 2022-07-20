@@ -10,12 +10,13 @@ const startGame = document.getElementById("start-game");
 const thePlay = document.getElementById("the-play");
 const activePlayerName = document.getElementById("active-player-name");
 const gameFieldElements = document.querySelectorAll("#play-box li");
+const gameOverElement = document.getElementById("game-over");
 
 let isPlayer1 = true;
 let playerwon = false;
 let selectedPlayer = 0;
 let activePlayer = 0;
-
+let currentRound = 1;
 const gameData = [
   [0, 0, 0],
   [0, 0, 0],
