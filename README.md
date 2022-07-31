@@ -7,10 +7,10 @@
  - https://asmaaadel0.github.io/Tic-Tac-Toe-Game/
 
 > ### screen Shot from the game:
- - ![Capture](https://user-images.githubusercontent.com/88618793/179994894-7a6549ae-b62a-4f52-bc08-620252e83103.PNG)
+ - ![image](https://user-images.githubusercontent.com/88618793/182042773-e14ffdf0-cda8-4692-a189-64a23c626728.png)
  
 > ### When one of the players wins!
- - ![Capture2](https://user-images.githubusercontent.com/88618793/179995765-0eb29724-c475-4025-ae24-2902d52f7791.PNG)
+ - ![image](https://user-images.githubusercontent.com/88618793/182042815-2b6ec576-9b0f-480c-9f25-df59a5bd1e36.png)
  
 
 
