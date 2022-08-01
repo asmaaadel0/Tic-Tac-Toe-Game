@@ -42,8 +42,8 @@ h1 {
   box-shadow: 1px 1px 4px black;
   border-radius: 1rem;
   margin: 2rem;
-  width: 20%;
-  height: 9rem;
+  width: 20rem;
+  height: 10rem;
   overflow: visible;
   /* background: linear-gradient(70deg,rgb(217, 214, 214),rgb(182, 182, 182)); */
   background-color: rgb(247, 223, 244);
@@ -85,7 +85,7 @@ h1 {
   color: white;
   background-color: rgb(235, 117, 199);
   border-color: rgb(235, 117, 199);
-  width: 15%;
+  width: 14rem;
   height: 2.2rem;
   border-radius: 1rem;
 }
@@ -109,10 +109,10 @@ h1 {
 }
 #overlay-choose-name {
   position: fixed;
-  width: 50%;
-  height: 30%;
-  top: 30%;
-  left: 25%;
+  width: 15rem;
+  height: 13rem;
+  top: 13rem;
+  left: 0.5rem;
   position: absolute;
   border-radius: 10px;
   background-color: white;
@@ -142,7 +142,7 @@ h2 {
   border-color: rgb(235, 117, 199);
 }
 #cancel {
-  width: 13%;
+  width: 6rem;
   height: 2rem;
   margin: 0.5rem;
   background-color: white;
@@ -155,7 +155,7 @@ h2 {
   border-color: rgb(235, 117, 199);
 }
 #confirm {
-  width: 13%;
+  width: 6rem;
   height: 2rem;
   margin: 0.5rem;
   background-color: rgb(235, 117, 199);
@@ -218,11 +218,14 @@ h2 {
 #game-over h2,
 #game-over #player-name {
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 @media (min-width: 48rem) {
   #overlay-choose-name {
     left: calc(50% - 20rem);
     width: 40rem;
   }
+  /* h2{
+    font-size: 5rem;
+  } */
 }
