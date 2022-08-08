@@ -3,7 +3,7 @@
 - [About](#about)
 - [Gaming System](#gaming-system)
 - [Website link](#link)
-- [screen Shot from the game](#screen-shots)
+- [ScreenShots from the game](#screen-shots)
 - [Contributors](#Contributors)
 
 ## About <a name = "about"></a>
