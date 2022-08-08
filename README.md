@@ -21,7 +21,7 @@ Stop wasting paper and savetrees. Because of the simplicity of Tic Tac Toe, it i
 - https://asmaaadel0.github.io/Tic-Tac-Toe-Game/
 
 
- ## screen Shot from the game: <a name = "screan-shots"></a>
+ ## ScreenShots from the game: <a name = "screan-shots"></a>
 <h3 align='left'>Main Screen</h3>
 
   ![image](https://user-images.githubusercontent.com/88618793/182042773-e14ffdf0-cda8-4692-a189-64a23c626728.png)
