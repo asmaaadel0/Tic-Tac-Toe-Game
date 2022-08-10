@@ -9,7 +9,7 @@
 ## About <a name = "about"></a>
 - Tic tac toe implemented with HTML, CSS and JavaScript
 
-## Gaming System <a name = "#gaming-system"></a>
+## Gaming System <a name = "gaming-system"></a>
 
 - The Tic Tac Toe game is a game for two players,called "X" and "O", who take turns marking thespaces in a 3×3 grid.
 The player who succeeded in placing three respective marks in a horizontal,vertical, or diagonal row wins the game.
@@ -21,7 +21,7 @@ Stop wasting paper and savetrees. Because of the simplicity of Tic Tac Toe, it i
 - https://asmaaadel0.github.io/Tic-Tac-Toe-Game/
 
 
- ## ScreenShots from the game: <a name = "screan-shots"></a>
+ ## ScreenShots from the game: <a name = "screen-shots"></a>
 <h3 align='left'>Main Screen</h3>
 
   ![image](https://user-images.githubusercontent.com/88618793/182042773-e14ffdf0-cda8-4692-a189-64a23c626728.png)
